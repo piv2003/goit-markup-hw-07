@@ -1,7 +1,7 @@
 /* Variables */
 :root {
   --basic-dark: #2f303a;
-  --basic-blue: #2196f3;
+  --accent-color: #2196f3;
   --basic-white: #fff;
   --basic-gray: rgba(255, 255, 255, 0.6);
   --join-link-background: rgba(255, 255, 255, 0.1);
@@ -110,7 +110,7 @@ img {
 
 .header-logo-link,
 .footer-logo-link {
-  color: var(--basic-blue);
+  color: var(--accent-color);
   font-family: var(--font-logo);
   font-weight: 700;
   font-size: 26px;
@@ -124,7 +124,7 @@ img {
 }
 
 .header-navigation-item-link.current {
-  color: var(--basic-blue);
+  color: var(--accent-color);
 }
 
 .header-navigation-item-link:hover,
@@ -135,7 +135,7 @@ img {
 .header-contacts-item-link:focus,
 .footer-item-contacts-link:focus,
 .footer-item-link:focus {
-  color: var(--basic-blue);
+  color: var(--accent-color);
 }
 
 .header-navigation-item-link.current::after {
@@ -146,7 +146,7 @@ img {
   height: 4px;
   border-radius: 2px;
   bottom: -1px;
-  background-color: var(--basic-blue);
+  background-color: var(--accent-color);
   transition: opacity var(--timing-function);
 }
 
@@ -214,7 +214,7 @@ img {
 .effective-solutions-buttons {
   display: inline-block;
   padding: 10px 32px;
-  background-color: var(--basic-blue);
+  background-color: var(--accent-color);
   color: var(--basic-white);
   font-weight: 700;
   font-size: 16px;
@@ -410,7 +410,7 @@ img {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: var(--basic-blue);
+  background-color: var(--accent-color);
   color: var(--basic-white);
 }
 
@@ -444,8 +444,8 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
-  color: var(--basic-blue);
-  border-color: var(--basic-blue);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-logo {
@@ -529,7 +529,7 @@ img {
 
 .footer-join-link:hover,
 .footer-join-link:focus {
-  background-color: var(--basic-blue);
+  background-color: var(--accent-color);
 }
 
 .footer-join-icon {
@@ -566,7 +566,7 @@ img {
 }
 
 .footer-form-field:focus {
-  border: 1px solid var(--basic-blue);
+  border: 1px solid var(--accent-color);
 }
 
 .footer-form-field::placeholder {
@@ -583,7 +583,7 @@ img {
   width: 200px;
   height: 50px;
   margin-left: 12px;
-  background: var(--basic-blue);
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
@@ -644,7 +644,7 @@ img {
 
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
-  background-color: var(--basic-blue);
+  background-color: var(--accent-color);
   color: var(--basic-white);
   box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
 }
@@ -792,7 +792,7 @@ img {
 
 .close-btn:hover {
   cursor: pointer;
-  fill: var(--basic-blue);
+  fill: var(--accent-color);
 }
 
 .modal-form {
@@ -837,7 +837,7 @@ img {
 .modal-form-input:hover,
 .modal-form-input:focus {
   outline: none;
-  border-color: var(--basic-blue);
+  border-color: var(--accent-color);
 }
 
 .modal-input-icon {
@@ -851,7 +851,7 @@ img {
 
 .modal-form-input:hover~.modal-input-icon,
 .modal-form-input:focus~.modal-input-icon {
-  fill: var(--basic-blue)
+  fill: var(--accent-color)
 }
 
 .modal-dop-gap {
@@ -878,7 +878,7 @@ img {
 
 .modal-form-textarea:hover,
 .modal-form-textarea:focus {
-  border: 1px solid var(--basic-blue);
+  border: 1px solid var(--accent-color);
 }
 
 .modal-form-textarea::placeholder {
@@ -907,8 +907,8 @@ img {
 }
 
 .modal-form-checkbox-input:checked+.modal-form-checkbox-custom {
-  outline-color: var(--basic-blue);
-  background-color: var(--basic-blue);
+  outline-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .modal-form-checkbox-icon {
@@ -928,7 +928,7 @@ img {
 
 .modal-form-policity {
   padding-left: 5px;
-  color: var(--basic-blue);
+  color: var(--accent-color);
   text-decoration-line: underline;
 }
 
@@ -945,7 +945,7 @@ img {
   color: var(--basic-white);
   border: none;
   cursor: pointer;
-  background: var(--basic-blue);
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgb(0 0 0 /15%);
   border-radius: 4px;
   text-decoration: none;

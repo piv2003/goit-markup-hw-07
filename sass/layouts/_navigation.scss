@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.header__container,
+.nav__list,
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-list {
+  margin-left: auto;
+}
+
+.contacts-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}

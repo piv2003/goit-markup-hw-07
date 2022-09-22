@@ -380,4 +380,106 @@ img {
   text-transform: uppercase;
   color: var(--basic-white);
   background-color: var(--our-business-text);
+}
+
+.our-team {
+  background-color: var(--background-our-team);
+}
+
+.our-team__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-team__item {
+  background-color: var(--basic-white);
+  margin-right: 30px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team__item:last-child {
+  margin-right: 0;
+}
+
+.our-team__indents {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.our-team__name {
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team__function {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-lightgray-color);
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 16px;
+}
+
+.social-media-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-media__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--social-icons-grey);
+  border-radius: 50%;
+  -webkit-transition: background-color var(--timing-function), color var(--timing-function);
+  transition: background-color var(--timing-function), color var(--timing-function);
+}
+.social-media__link:hover, .social-media__link:focus {
+  background-color: var(--accent-color);
+  color: var(--basic-white);
+}
+
+.social-media__icon {
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */

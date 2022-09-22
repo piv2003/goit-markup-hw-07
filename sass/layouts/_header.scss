@@ -2,6 +2,11 @@
   border-bottom: 1px solid var(--header-border-color);
 }
 
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: var(--font-logo);
   font-weight: 700;
@@ -14,3 +19,36 @@
 .logo--dark {
   color: var(--text-black-full);
 }
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list__link {
+  display: flex;
+  align-items: center;
+  color: var(--text-lightgray-color);
+  font-weight: 500;
+  Line-height: calc(16/14);
+  letter-spacing: 0.02em;
+  transition: color var(--timing-function);
+
+&:hover,
+&:focus {
+   color: var(--accent-color);
+   }  
+}
+
+.contacts-list__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+

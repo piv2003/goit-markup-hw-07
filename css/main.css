@@ -1,6 +1,6 @@
 :root {
   --basic-dark: #2f303a;
-  --basic-blue: #2196f3;
+  --accent-color: #2196f3;
   --basic-white: #fff;
   --basic-gray: rgba(255, 255, 255, 0.6);
   --join-link-background: rgba(255, 255, 255, 0.1);
@@ -98,6 +98,15 @@ img {
   border-bottom: 1px solid var(--header-border-color);
 }
 
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .logo {
   font-family: var(--font-logo);
   font-weight: 700;
@@ -109,6 +118,45 @@ img {
 
 .logo--dark {
   color: var(--text-black-full);
+}
+
+.contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--text-lightgray-color);
+  font-weight: 500;
+  Line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  -webkit-transition: color var(--timing-function);
+  transition: color var(--timing-function);
+}
+.contacts-list__link:hover, .contacts-list__link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list__icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .nav {
@@ -130,9 +178,7 @@ img {
   margin-left: 93px;
 }
 
-.header__container,
-.nav__list,
-.contacts-list {
+.nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,11 +187,90 @@ img {
           align-items: center;
 }
 
-.contacts-list {
-  margin-left: auto;
+.nav__item:not(:last-child) {
+  margin-right: 50px;
 }
 
-.contacts-list {
+.nav__link--current {
+  color: var(--accent-color);
+}
+
+.nav__link {
+  position: relative;
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(--text-black-color);
+  font-weight: 500;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  -webkit-transition: color var(--timing-function);
+  transition: color var(--timing-function);
+}
+.nav__link:hover, .nav__link:focus {
+  color: var(--accent-color);
+}
+
+.nav__link--current::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  bottom: -1px;
+  background-color: var(--accent-color);
+  -webkit-transition: opacity var(--timing-function);
+  transition: opacity var(--timing-function);
+}
+
+.hero {
+  padding: 200px 0;
+  margin: 0;
+  background-color: var(--basic-dark);
+  text-align: center;
+}
+
+.hero-bg {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-bg/hero-bg.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: var(--basic-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636363636;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__btn {
+  display: inline-block;
+  padding: 10px 32px;
+  background-color: var(--accent-color);
+  color: var(--basic-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  -webkit-transition: background-color var(--timing-function);
+  transition: background-color var(--timing-function);
+}
+.hero__btn:hover, .hero__btn:focus {
+  background-color: var(--secondary-accent-color);
 }/*# sourceMappingURL=main.css.map */

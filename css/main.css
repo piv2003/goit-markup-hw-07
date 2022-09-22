@@ -482,4 +482,57 @@ img {
 
 .social-media__icon {
   fill: currentColor;
+}
+
+.clients__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 170px;
+  height: 92px;
+  color: var(--social-icons-grey);
+  border: 1px solid var(--social-icons-grey);
+  border-radius: 4px;
+  -webkit-transition: color var(--timing-function), border-color var(--timing-function);
+  transition: color var(--timing-function), border-color var(--timing-function);
+}
+
+.clients__link:hover,
+.clients__link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.clients__logo {
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */

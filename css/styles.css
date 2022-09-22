@@ -423,7 +423,7 @@ img {
 } */
 
 /*--- section ---clients */
-.clients__title {
+/* .clients__title {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
@@ -465,7 +465,7 @@ img {
 
 .clients__logo {
   fill: currentColor;
-}
+} */
 
 /*****FOOTER start*****/
 .footer {

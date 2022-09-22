@@ -273,4 +273,54 @@ img {
 }
 .hero__btn:hover, .hero__btn:focus {
   background-color: var(--secondary-accent-color);
+}
+
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__item {
+  margin-right: 30px;
+  width: 270px;
+}
+
+.features__item:last-child {
+  margin-right: 0;
+}
+
+.features__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-our-team);
+  border-radius: 4px;
+}
+
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1721428571;
+  text-transform: uppercase;
+}
+
+.features__text {
+  color: var(--text-lightgray-color);
+  line-height: 1.7142857143;
 }/*# sourceMappingURL=main.css.map */

@@ -323,4 +323,61 @@ img {
 .features__text {
   color: var(--text-lightgray-color);
   line-height: 1.7142857143;
+}
+
+.our-business {
+  padding-top: 0;
+}
+
+.our-business__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-business__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.our-business__item {
+  position: relative;
+}
+
+.our-business__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-business__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  width: 100%;
+  font-weight: 700;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--our-business-text);
 }/*# sourceMappingURL=main.css.map */

@@ -84,8 +84,8 @@
   overflow: hidden;
 }
 
-.portfolio-list__link:hover .overlay,
-.portfolio-list__link:focus .overlay {
+.portfolio__link:hover .overlay,
+.portfolio__link:focus .overlay {
   transform: translateY(0);
 }
 

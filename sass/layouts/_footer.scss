@@ -16,7 +16,7 @@
   font-style: normal;
 }
 
-.footer-address-item:not(:last-child) {
+.footer-address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -50,7 +50,7 @@
   }
 }
 
-.footer__logo {
+.logo {
   display: block;
   margin-bottom: 20px;
   line-height: calc(31/26);

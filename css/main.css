@@ -1,14 +1,11 @@
 :root {
-  --basic-dark: #2f303a;
   --accent-color: #2196f3;
   --basic-white: #fff;
-  --basic-gray: rgba(255, 255, 255, 0.6);
   --text-black-full: #000;
   --text-black-color: #212121;
   --text-lightgray-color: #757575;
   --background-our-team: #f5f4fa;
   --social-icons-grey: #AFB1B8;
-  --header-border-color: #ececec;
   --font-logo: "Raleway", sans-serif;
   --font-main: "Roboto", sans-serif;
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -86,7 +83,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid var(--header-border-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .header__container {
@@ -218,7 +215,7 @@ img {
 .hero {
   padding: 200px 0;
   margin: 0;
-  background-color: var(--basic-dark);
+  background-color: #2f303a;
   text-align: center;
 }
 
@@ -529,7 +526,7 @@ img {
 }
 
 .footer {
-  background-color: var(--basic-dark);
+  background-color: #2f303a;
   padding: 60px 0;
 }
 
@@ -670,31 +667,31 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--basic-gray);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__field::-moz-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--basic-gray);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__field:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--basic-gray);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__field::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--basic-gray);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__field::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--basic-gray);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {

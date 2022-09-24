@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--basic-dark);
+  background-color: $basic-dark;
   padding: 60px 0;
 }
 
@@ -130,7 +130,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: calc(20/16);
-    color: var(--basic-gray);
+    color: $footer-form-gray;
   }
 }
 

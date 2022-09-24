@@ -3,8 +3,6 @@
   --accent-color: #2196f3;
   --basic-white: #fff;
   --basic-gray: rgba(255, 255, 255, 0.6);
-  --join-link-background: rgba(255, 255, 255, 0.1);
-  --text-grey-footer: #acacb0;
   --text-black-full: #000;
   --text-black-color: #212121;
   --text-lightgray-color: #757575;
@@ -582,7 +580,7 @@ img {
   line-height: 1.7142857143;
   font-style: normal;
   letter-spacing: 0.03em;
-  color: var(--text-grey-footer);
+  color: #acacb0;
   -webkit-transition: color var(--timing-function);
   transition: color var(--timing-function);
 }
@@ -627,7 +625,7 @@ img {
   width: 44px;
   height: 44px;
   color: var(--basic-white);
-  background-color: var(--join-link-background);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   -webkit-transition: background-color var(--timing-function);
   transition: background-color var(--timing-function);

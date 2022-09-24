@@ -115,9 +115,9 @@
 
 .portfolio__signatures {
   padding: 20px 24px;
-  border-right: 1px solid var(--portfolio-indents);
-  border-bottom: 1px solid var(--portfolio-indents);
-  border-left: 1px solid var(--portfolio-indents);
+  border-right: 1px solid $portfolio-indents;
+  border-bottom: 1px solid $portfolio-indents;
+  border-left: 1px solid $portfolio-indents;
 }
 
 .portfolio__name,

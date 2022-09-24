@@ -47,6 +47,6 @@
 
   &:hover,
   &:focus {
-    background-color: var(--secondary-accent-color);
+    background-color: $secondary-btn-color;
   }
 }

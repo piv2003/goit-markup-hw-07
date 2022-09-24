@@ -13,7 +13,6 @@
   --background-btn-close: rgba(0, 0, 0, 0.1);
   --form-textarea-color: rgba(33, 33, 33, 0.2);
   --textarea-placeholder-color: rgba(117, 117, 117, 0.5);
-  --secondary-accent-color: #188CE8;
   --social-icons-grey: #AFB1B8;
   --our-business-text: rgba(47, 48, 58, 0.8);
   --portfolio-indents: #eeeeee;
@@ -272,7 +271,7 @@ img {
   transition: background-color var(--timing-function);
 }
 .hero__btn:hover, .hero__btn:focus {
-  background-color: var(--secondary-accent-color);
+  background-color: #188CE8;
 }
 
 .features__list {

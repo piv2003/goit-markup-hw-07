@@ -96,7 +96,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background-color: var(--portfolio-overlay);
+  background-color: $portfolio-overlay;
   backdrop-filter: blur(5px);
   transform: translateY(100%);
   transition: transform var(--timing-function);

@@ -260,7 +260,7 @@ img {
   background-color: #188CE8;
 }
 
-.features__list {
+.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

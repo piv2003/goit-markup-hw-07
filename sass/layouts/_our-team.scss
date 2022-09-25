@@ -1,8 +1,8 @@
-.our-team {
+.section--background {
   background-color: var(--background-our-team);
 }
 
-.our-team__title {
+.section__title {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.our-team__list {
+.our-team {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -37,7 +37,7 @@
   padding-bottom: 30px;
 }
 
-.our-team__name {
+.our-team__title {
   margin-bottom: 10px;
   margin-top: 0;
   font-weight: 500;
@@ -47,7 +47,7 @@
   letter-spacing: 0.03em;
 }
 
-.our-team__function {
+.our-team__text {
   margin: 0;
   font-size: 16px;
   color: var(--text-lightgray-color);

@@ -310,11 +310,11 @@ img {
   line-height: 1.7142857143;
 }
 
-.our-business {
+.section--nopadding {
   padding-top: 0;
 }
 
-.our-business__title {
+.section__title {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
@@ -325,7 +325,7 @@ img {
   text-align: center;
 }
 
-.our-business__list {
+.our-business {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
